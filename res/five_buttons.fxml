@@ -25,6 +25,6 @@
     </rowConstraints>
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
-    <Button mnemonicParsing="false" text="Show Date" GridPane.rowIndex="1"/>
+    <Button mnemonicParsing="false" text="Show Date" GridPane.rowIndex="1" onAction="#showDate"/>
     <Label fx:id="dateLabel" text="" GridPane.rowIndex="2"/>
 </GridPane>
