@@ -31,6 +31,7 @@ public class FiveButtons extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("/five_buttons" +
                 ".fxml"));
         root.getChildrenUnmodifiable().add(TooManyButtons);
+        setAlert();
         primaryStage.setTitle("Five Buttons");
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
